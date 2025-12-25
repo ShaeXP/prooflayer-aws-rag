@@ -1,6 +1,7 @@
 ﻿# --- Secrets ---
 .env
 .env.*
+!.env.example
 *.key
 *.pem
 lambda-env.json
