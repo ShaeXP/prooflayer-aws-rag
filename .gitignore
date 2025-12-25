@@ -1,0 +1,59 @@
+﻿# --- Secrets ---
+.env
+.env.*
+*.key
+*.pem
+lambda-env.json
+**/lambda-env.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Terraform ---
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/terraform.tfvars
+**/terraform.tfvars.json
+**/.terraform.lock.hcl
+
+# --- Local/Generated artifacts ---
+build/
+dist/
+*.zip
+
+# --- Logs / scratch test files ---
+ingest-*.txt
+test*.txt
+bigtest.txt
+prooflayer_test.txt
+# Python virtualenvs
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local secrets / env
+.env
+lambda-env.json
+
+# Build artifacts
+*.zip
+
+# Local test + ingest artifacts
+ingest-*.txt
+test*.txt
+bigtest*.txt
